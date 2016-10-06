@@ -29,10 +29,7 @@ function send(){
 		var msg = document.getElementById('msg').value;
 		var name = document.getElementById('name').value;
 		msg = escape(msg);
-		alert(msg);
-
-
-		
+			
 		var datastring = 'name='+name+'&msg='+msg;
 		if(msg !=''){
 		$.ajax({
